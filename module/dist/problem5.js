@@ -1,7 +1,7 @@
 "use strict";
 {
-    function getProperty(obj, key) {
-        return obj[key];
+    function getProperty(object, key) {
+        return object[key];
     }
     const person = { name: "Alice", age: 30 };
     console.log(`The user name is: ${getProperty(person, "name")}`);

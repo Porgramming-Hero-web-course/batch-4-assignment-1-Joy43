@@ -15,5 +15,6 @@ console.log(updateProfile(myProfile, { age: 26 }));
 function updateProfile(profile, updates) {
     return Object.assign(Object.assign({}, profile), updates);
 }
-const myProfile = { name: "Alice", age: 65, email: "alice@example.com" };
-console.log(updateProfile(myProfile, { age: 26, email: "ssjoy43@gmail.com" }));
+const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
+// console.log(updateProfile(myProfile, { age: 26,email:"ssjoy43@gmail.com" }));
+console.log(updateProfile(myProfile, { age: 26 }));
