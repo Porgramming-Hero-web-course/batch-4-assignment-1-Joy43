@@ -6,7 +6,7 @@ Sample Input: sumArray([1, 2, 3, 4, 5]);
 
 {
     function sumArray(arrayOfNumber: number[]): number {
-        let sum = 0;  
+        let sum :number= 0;  
         for (let i = 0; i < arrayOfNumber.length; i++) {
             sum += arrayOfNumber[i];
         }
