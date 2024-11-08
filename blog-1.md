@@ -1,4 +1,5 @@
-##Title:- The significance of union and intersection types in Typescript. ##
+##  The significance of union and intersection types in Typescript.
+
 TypeScript’s type system is known for adding flexibility and safety to JavaScript. Two of its powerful features, union and intersection types, help us create more adaptable and robust code. 
 1. Union Types:-
 If we have a value that is a union type, we can only access members that are common to all types in the union.Union types allow a variable to hold multiple types of values. For instance, if a variable can be a string or a number, a union type covers both options:
