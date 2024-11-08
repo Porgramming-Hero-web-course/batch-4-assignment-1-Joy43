@@ -25,6 +25,7 @@ function updateProfile(profile: Profile, updates: Partial<Profile>): Profile {
   }
   
 
-  const myProfile: Profile = { name: "Alice", age: 65, email: "alice@example.com" };
-  console.log(updateProfile(myProfile, { age: 26,email:"ssjoy43@gmail.com" }));
+  const myProfile: Profile = { name: "Alice", age: 25, email: "alice@example.com" };
+  // console.log(updateProfile(myProfile, { age: 26,email:"ssjoy43@gmail.com" }));
+  console.log(updateProfile(myProfile, { age: 26 }));
    

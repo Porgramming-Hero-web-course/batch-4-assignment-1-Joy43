@@ -19,14 +19,14 @@ interface Person {
     age: number;
 }
 
-function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
-    return obj[key];
+function getProperty<X, K extends keyof X>(object: X, key: K): X[K] {
+    return object[key];
 }
 
 const person: Person = { name: "Alice", age: 30 };
 
 
 console.log(`The user name is: ${getProperty(person, "name")}`); 
-console.log(`The user age is: ${getProperty(person, "age")}`);   
+ console.log(`The user age is: ${getProperty(person, "age")}`);   
 
 }

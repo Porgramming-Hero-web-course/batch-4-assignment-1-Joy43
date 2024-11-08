@@ -15,7 +15,7 @@ car.getCarAge();
 class Car{
     make:string;
     model:string;
-    public year:number;
+    year:number;
 
 constructor(make:string,model:string,year:number){
 this.make=make;
